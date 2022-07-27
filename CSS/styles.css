@@ -1,8 +1,10 @@
 body {
-    background-image:url("./images/highway.png");
+    background: rgba(0, 0, 0, 0.7) url("./images/highway.png");
     background-repeat:repeat;
     background-size: cover;
+    background-blend-mode: darken;
 }
+
 .contain-1 {
     margin-top: 7rem;
     margin-left: 2rem;
